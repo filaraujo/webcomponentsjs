@@ -49,7 +49,7 @@ function closurify(sourceName, fileName) {
 
   const closureOptions = {
     new_type_inf: true,
-    compilation_level: 'ADVANCED',
+    // compilation_level: 'ADVANCED',
     language_in: 'ES6_STRICT',
     language_out: 'ES5_STRICT',
     isolation_mode: 'IIFE',
